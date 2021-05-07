@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6811037820672129424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52631689747393394}
+  - component: {fileID: 4643892935336028322}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52631689747393394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6811037820672129424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4643892935336028322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6811037820672129424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004338e8225b1c84aa878c1a355e3f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: RibToss
+    clip: {fileID: 8300000, guid: f13a9d41c1e3d5a4a8b253ff0177ebe3, type: 3}
+    volume: 1
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 14121c0d889e0f74aad84d081af7cb77, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: ZombieHit
+    clip: {fileID: 8300000, guid: 21595366444a04b4db141d8a8296d794, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: CrowCrawOne
+    clip: {fileID: 8300000, guid: bbffe48f9ff0cf44d9cdf622d4317bde, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: CrowCrawtwo
+    clip: {fileID: 8300000, guid: a35ce64e6db7af84da659848e6f0d1e0, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: GraveyardMusic
+    clip: {fileID: 8300000, guid: 1289166798208514a9b95edd7d36235a, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: NecromancerB
+    clip: {fileID: 8300000, guid: 54d0356148b105b4880e8c4c0b5db710, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: NecromancerKey
+    clip: {fileID: 8300000, guid: b632d55e7528ad84caded91ef065b2a8, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 18098fe4516795f4096e3f7139f4f8b6, type: 3}
+    volume: 0.5
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: P1
+    clip: {fileID: 8300000, guid: c91b1f11e9132614d8fe999647f9c0dd, type: 3}
+    volume: 0.8
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: P2
+    clip: {fileID: 8300000, guid: f143b4d63ea86784ca0264f388afb30e, type: 3}
+    volume: 0.8
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: P3
+    clip: {fileID: 8300000, guid: b928ba778e94baa4789c1e5cc96a96e5, type: 3}
+    volume: 0.8
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: P4
+    clip: {fileID: 8300000, guid: 1a9c1c35f2dd48e4fbed1a4b42511935, type: 3}
+    volume: 0.8
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: P5
+    clip: {fileID: 8300000, guid: 790716eb84ef0864a8d616f982f6947b, type: 3}
+    volume: 0.8
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: HeroEnterC
+    clip: {fileID: 8300000, guid: 8b8484551ded6404ebb0d27e785e2568, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: NLockedDoor
+    clip: {fileID: 8300000, guid: 78ee8bff36d035f4383660a39ce724e7, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: FindingN
+    clip: {fileID: 8300000, guid: 2ca07396284233242b17ef0ab27e0690, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
+  - name: Ending
+    clip: {fileID: 8300000, guid: a8acad15fc9a7324aa5ad225c5a906cd, type: 3}
+    volume: 0.7
+    pitch: 1
+    Loop: 0
+    source: {fileID: 0}
